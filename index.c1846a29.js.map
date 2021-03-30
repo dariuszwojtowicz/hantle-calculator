@@ -1,1 +1,0 @@
-{"mappings":"AAAaA,SAASC,cAAc,QAC/BC,UAAY","sources":["./client.js"],"sourcesContent":["const $app = document.querySelector('#app');\n$app.innerText = 'Hello world';\n"],"names":["document","querySelector","innerText"],"version":3,"file":"index.c1846a29.js.map"}
