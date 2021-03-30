@@ -1,0 +1,1 @@
+{"mappings":"AAAaA,SAASC,cAAc,QAC/BC,UAAY","sources":["./client.js"],"sourcesContent":["const $app = document.querySelector('#app');\n$app.innerText = 'Hello world';\n"],"names":["document","querySelector","innerText"],"version":3,"file":"index.HASH_REF_87d7a29f5d83362851505809f74a7547.js.map"}

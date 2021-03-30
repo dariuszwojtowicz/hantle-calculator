@@ -1,0 +1,23 @@
+{
+  "name": "hantle-calculator",
+  "version": "1.0.0",
+  "description": "Hantle calculator",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /hantle-calculator/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Darek Wójtowicz",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dariuszwojtowicz/hantle-calculator.git"
+  }
+}
