@@ -1,2 +1,0 @@
-!function(){const e=document.querySelector("#smallCount"),t=document.querySelector("#bigCount"),n=document.querySelector("#weight");e.addEventListener("change",(e=>{const r=.8*(parseInt(e.target.value,10)||0)+2.4*(parseInt(t.value,10)||0);n.innerText=(r+1.8).toFixed(1)})),t.addEventListener("change",(t=>{const r=parseInt(t.target.value,10)||0,a=.8*(parseInt(e.value,10)||0)+2.4*r;n.innerText=(a+1.8).toFixed(1)}))}();
-//# sourceMappingURL=index.cf803cdb.js.map
