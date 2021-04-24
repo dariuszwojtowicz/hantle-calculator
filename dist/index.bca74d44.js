@@ -1,2 +1,0 @@
-!function(){const e=document.querySelector("#smallCount"),t=document.querySelector("#bigCount"),n=document.querySelector("#weight"),a=document.getElementById("kotek");e.addEventListener("change",(e=>{const a=.8*(parseInt(e.target.value,10)||0)+2.4*(parseInt(t.value,10)||0);n.innerText=(a+1.8).toFixed(1)})),t.addEventListener("change",(t=>{const a=parseInt(t.target.value,10)||0,r=.8*(parseInt(e.value,10)||0)+2.4*a;n.innerText=(r+1.8).toFixed(1)})),a.addEventListener("click",(e=>{alert("Misiu Cię kocha! ;*")}))}();
-//# sourceMappingURL=index.bca74d44.js.map

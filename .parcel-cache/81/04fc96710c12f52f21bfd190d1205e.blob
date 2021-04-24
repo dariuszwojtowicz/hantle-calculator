@@ -7,7 +7,7 @@
     <title>Elżbieta Wójtowicz Private Hantel Calculator</title>
     <meta name="description" content="Elżbieta Wójtowicz Private Hantel Calculator">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <style>
+    <style data-parcel-key="842c90b99244409e3fd47258e491307b">
         body {
             font-family: -apple-system, BlinkMacSystemFont,
                 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -16,40 +16,31 @@
         button, input {
             display: inline-block;
         }
-        input {
-            width: 40px;
-        }
     </style>
 </head>
-<body style="background-color: bisque;">
+<body style="58734165ce93eb48ef7992b68db8efe8">
 <h2><span id="kotek">Elżbieta</span> Wójtowicz Private Hantel Calculator ;)</h2>
     <div>
         <label for="smallCount">Ile masz małych talerzy?</label>
-        <input type="number" id="smallCount" min="0" value="0" />
-        <div>
-            <button id="small0">0</button>
-            <button id="small1">1</button>
-            <button id="small2">2</button>
-            <button id="small3">3</button>
-            <button id="small4">4</button>
-        </div>
+        <input type="number" id="smallCount" min="0" value="0">
+        <button id="small1">1</button>
+        <button id="small2">2</button>
+        <button id="small3">3</button>
+        <button id="small4">4</button>
     </div>
-    <br />
+    <br>
     <div>
         <label for="bigCount">Ile masz dużych talerzy?</label>
-        <input type="number" id="bigCount" min="0" value="0" />
-        <div>
-            <button id="big0">0</button>
-            <button id="big1">1</button>
-            <button id="big2">2</button>
-            <button id="big3">3</button>
-            <button id="big4">4</button>
-            <button id="big5">5</button>
-            <button id="big6">6</button>
-        </div>
+        <input type="number" id="bigCount" min="0" value="0">
+        <button id="big1">1</button>
+        <button id="big2">2</button>
+        <button id="big3">3</button>
+        <button id="big4">4</button>
+        <button id="big5">5</button>
+        <button id="big6">6</button>
     </div>
     <h3>Twój hantel waży</h3>
     <span id="weight">1.8</span>
-    <script src="./client.js"></script>
+    <script src="89f93eec71cdcd210d85e1d1960be60e"></script>
 </body>
 </html>

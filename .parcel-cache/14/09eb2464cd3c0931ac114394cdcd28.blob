@@ -21,10 +21,6 @@ $kotek.addEventListener('click', (event) => {
   alert('Misiu Cię kocha! ;*');
 });
 
-document.querySelector('#small0').addEventListener('click', (event) => {
-  $smallCount.value = 0;
-  $smallCount.dispatchEvent(new Event('change'));
-});
 document.querySelector('#small1').addEventListener('click', (event) => {
   $smallCount.value = 1;
   $smallCount.dispatchEvent(new Event('change'));
@@ -42,10 +38,6 @@ document.querySelector('#small4').addEventListener('click', (event) => {
   $smallCount.dispatchEvent(new Event('change'));
 });
 
-document.querySelector('#big0').addEventListener('click', (event) => {
-  $bigCount.value = 0;
-  $smallCount.dispatchEvent(new Event('change'));
-});
 document.querySelector('#big1').addEventListener('click', (event) => {
   $bigCount.value = 1;
   $smallCount.dispatchEvent(new Event('change'));

@@ -21,52 +21,35 @@ $kotek.addEventListener('click', (event) => {
   alert('Misiu Cię kocha! ;*');
 });
 
-document.querySelector('#small0').addEventListener('click', (event) => {
-  $smallCount.value = 0;
-  $smallCount.dispatchEvent(new Event('change'));
-});
 document.querySelector('#small1').addEventListener('click', (event) => {
   $smallCount.value = 1;
-  $smallCount.dispatchEvent(new Event('change'));
+  $smallCount..dispatchEvent(event)
 });
 document.querySelector('#small2').addEventListener('click', (event) => {
   $smallCount.value = 2;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#small3').addEventListener('click', (event) => {
   $smallCount.value = 3;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#small4').addEventListener('click', (event) => {
   $smallCount.value = 4;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 
-document.querySelector('#big0').addEventListener('click', (event) => {
-  $bigCount.value = 0;
-  $smallCount.dispatchEvent(new Event('change'));
-});
 document.querySelector('#big1').addEventListener('click', (event) => {
   $bigCount.value = 1;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#big2').addEventListener('click', (event) => {
   $bigCount.value = 2;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#big3').addEventListener('click', (event) => {
   $bigCount.value = 3;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#big4').addEventListener('click', (event) => {
   $bigCount.value = 4;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#big5').addEventListener('click', (event) => {
   $bigCount.value = 5;
-  $smallCount.dispatchEvent(new Event('change'));
 });
 document.querySelector('#big6').addEventListener('click', (event) => {
   $bigCount.value = 6;
-  $smallCount.dispatchEvent(new Event('change'));
 });
